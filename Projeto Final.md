@@ -2,7 +2,7 @@
     O VelozMart processa 10.000 pedidos diários com picos de 50.000 em datas festivas (Black Friday). Cada pedido tem priorityScore (0-100), dispatchWindow (minutos restantes) e sizeCategory (P/M/G). A empresa precisa otimizar a ordem de expedição para minimizar atrasos e custos logísticos, sem trabalhar com produtos perecíveis ou extremamente urgentes.
     O algoritmo escolhido foi o Merge Sort, pois o mesmo é mais estável, até mesmo pra questões de armazenamento de pedidos. Conseguimos manter a ordem de chegada dos pedidos mesmo que tenham a mesma prioridade.
     Pedidos são acumulados até o horário de saída da Central. Antes de cada expedição, o sistema pode ordenar todos os pedidos do lote de uma vez. Toda vez que um pedido é finalizado o sistema atualiza, dando prioridade ao próximo pedido. A parte de organização é ordenada de forma prioritária do pedido maior para o menor, distância da entrega dos pedidos, e o tempo que falta para entregar. Assim podemos liberar mais espaço para a produção de novos pedidos.
-
+https://github.com/MDrovetto/Projeto-ADA-Meli/blob/main/merge%20sort.png
 
                                                          Pseudocódigo Simples
 Função ordenarPedidos(lista):
