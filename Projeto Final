@@ -5,7 +5,7 @@
     Pedidos são acumulados até o horário de saída. Antes de cada expedição, o sistema pode ordenar todos os pedidos do lote de uma vez. Toda vez que um pedido é finalizado o sistema atualiza, dando prioridade ao próximo pedido. A parte de organização é ordenada de forma prioritária do pedido maior para o menor, distância dos pedidos, e o tempo que falta para entregar. Assim podemos liberar mais espaço para a produção de novos pedidos.
 
 
-![Texto Alternativo](https://github.com/MDrovetto/Projeto-ADA-Meli/blob/main/ada1.jpg)
+<img src="https://exemplo.com/logo.png" alt="Logo da Minha Empresa">
              
 
                  Próximos Passos - Implementar melhorias do sistema
